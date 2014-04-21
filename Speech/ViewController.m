@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
+
+@property (nonatomic, strong) AVSpeechUtterance *utterance;
+@property (nonatomic, strong) AVSpeechSynthesizer *synthesizer;
 
 @end
 
@@ -17,7 +21,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    AVSpeechSynthesizer *synthesizer = [[AVSpeechSynthesizer alloc] init];
+    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:@"Wow, I have such a nice voice!"];
+    utterance.rate = AVSpeechUtteranceDefaultSpeechRate / 2;
+    [synthesizer speakUtterance:utterance];
 }
 
 - (void)didReceiveMemoryWarning

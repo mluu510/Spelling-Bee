@@ -21,6 +21,10 @@
 		276D8C8B190460660016E263 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D8C6D190460660016E263 /* UIKit.framework */; };
 		276D8C93190460660016E263 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 276D8C91190460660016E263 /* InfoPlist.strings */; };
 		276D8C95190460660016E263 /* SpeechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D8C94190460660016E263 /* SpeechTests.m */; };
+		276D8C9F190460AD0016E263 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D8C9E190460AD0016E263 /* AVFoundation.framework */; };
+		276D8CA2190469F00016E263 /* WordsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D8CA1190469F00016E263 /* WordsTableViewController.m */; };
+		276D8CA419046AE10016E263 /* latin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 276D8CA319046AE10016E263 /* latin.txt */; };
+		276D8CA819046F9E0016E263 /* SpellingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D8CA719046F9E0016E263 /* SpellingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		276D8C90190460660016E263 /* SpeechTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeechTests-Info.plist"; sourceTree = "<group>"; };
 		276D8C92190460660016E263 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		276D8C94190460660016E263 /* SpeechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechTests.m; sourceTree = "<group>"; };
+		276D8C9E190460AD0016E263 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		276D8CA0190469F00016E263 /* WordsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordsTableViewController.h; sourceTree = "<group>"; };
+		276D8CA1190469F00016E263 /* WordsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordsTableViewController.m; sourceTree = "<group>"; };
+		276D8CA319046AE10016E263 /* latin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = latin.txt; sourceTree = "<group>"; };
+		276D8CA619046F9E0016E263 /* SpellingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpellingViewController.h; sourceTree = "<group>"; };
+		276D8CA719046F9E0016E263 /* SpellingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpellingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276D8C9F190460AD0016E263 /* AVFoundation.framework in Frameworks */,
 				276D8C6C190460660016E263 /* CoreGraphics.framework in Frameworks */,
 				276D8C6E190460660016E263 /* UIKit.framework in Frameworks */,
 				276D8C6A190460660016E263 /* Foundation.framework in Frameworks */,
@@ -101,6 +112,7 @@
 		276D8C68190460660016E263 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				276D8C9E190460AD0016E263 /* AVFoundation.framework */,
 				276D8C69190460660016E263 /* Foundation.framework */,
 				276D8C6B190460660016E263 /* CoreGraphics.framework */,
 				276D8C6D190460660016E263 /* UIKit.framework */,
@@ -115,6 +127,10 @@
 				276D8C78190460660016E263 /* AppDelegate.h */,
 				276D8C79190460660016E263 /* AppDelegate.m */,
 				276D8C7B190460660016E263 /* Main.storyboard */,
+				276D8CA619046F9E0016E263 /* SpellingViewController.h */,
+				276D8CA719046F9E0016E263 /* SpellingViewController.m */,
+				276D8CA0190469F00016E263 /* WordsTableViewController.h */,
+				276D8CA1190469F00016E263 /* WordsTableViewController.m */,
 				276D8C7E190460660016E263 /* ViewController.h */,
 				276D8C7F190460660016E263 /* ViewController.m */,
 				276D8C81190460660016E263 /* Images.xcassets */,
@@ -126,6 +142,7 @@
 		276D8C70190460660016E263 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				276D8CA319046AE10016E263 /* latin.txt */,
 				276D8C71190460660016E263 /* Speech-Info.plist */,
 				276D8C72190460660016E263 /* InfoPlist.strings */,
 				276D8C75190460660016E263 /* main.m */,
@@ -231,6 +248,7 @@
 				276D8C82190460660016E263 /* Images.xcassets in Resources */,
 				276D8C74190460660016E263 /* InfoPlist.strings in Resources */,
 				276D8C7D190460660016E263 /* Main.storyboard in Resources */,
+				276D8CA419046AE10016E263 /* latin.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +270,8 @@
 				276D8C80190460660016E263 /* ViewController.m in Sources */,
 				276D8C7A190460660016E263 /* AppDelegate.m in Sources */,
 				276D8C76190460660016E263 /* main.m in Sources */,
+				276D8CA2190469F00016E263 /* WordsTableViewController.m in Sources */,
+				276D8CA819046F9E0016E263 /* SpellingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
