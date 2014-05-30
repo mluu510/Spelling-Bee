@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AACDABE19392CB3008F35FA /* NIKAccountApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA6F19392CB3008F35FA /* NIKAccountApi.m */; };
+		0AACDABF19392CB3008F35FA /* NIKApiInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA7119392CB3008F35FA /* NIKApiInvoker.m */; };
+		0AACDAC019392CB3008F35FA /* NIKApiTokenStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA7319392CB3008F35FA /* NIKApiTokenStatus.m */; };
+		0AACDAC119392CB3008F35FA /* NIKAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA7519392CB3008F35FA /* NIKAudioFile.m */; };
+		0AACDAC219392CB3008F35FA /* NIKAuthenticationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA7719392CB3008F35FA /* NIKAuthenticationToken.m */; };
+		0AACDAC319392CB3008F35FA /* NIKBigram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA7919392CB3008F35FA /* NIKBigram.m */; };
+		0AACDAC419392CB3008F35FA /* NIKCitation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA7B19392CB3008F35FA /* NIKCitation.m */; };
+		0AACDAC519392CB3008F35FA /* NIKContentProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA7D19392CB3008F35FA /* NIKContentProvider.m */; };
+		0AACDAC619392CB3008F35FA /* NIKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA7F19392CB3008F35FA /* NIKDate.m */; };
+		0AACDAC719392CB3008F35FA /* NIKDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA8119392CB3008F35FA /* NIKDefinition.m */; };
+		0AACDAC819392CB3008F35FA /* NIKDefinitionSearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA8319392CB3008F35FA /* NIKDefinitionSearchResults.m */; };
+		0AACDAC919392CB3008F35FA /* NIKExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA8519392CB3008F35FA /* NIKExample.m */; };
+		0AACDACA19392CB3008F35FA /* NIKExampleSearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA8719392CB3008F35FA /* NIKExampleSearchResults.m */; };
+		0AACDACB19392CB3008F35FA /* NIKExampleUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA8919392CB3008F35FA /* NIKExampleUsage.m */; };
+		0AACDACC19392CB3008F35FA /* NIKFacet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA8B19392CB3008F35FA /* NIKFacet.m */; };
+		0AACDACD19392CB3008F35FA /* NIKFacetValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA8D19392CB3008F35FA /* NIKFacetValue.m */; };
+		0AACDACE19392CB3008F35FA /* NIKFrequency.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA8F19392CB3008F35FA /* NIKFrequency.m */; };
+		0AACDACF19392CB3008F35FA /* NIKFrequencySummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA9119392CB3008F35FA /* NIKFrequencySummary.m */; };
+		0AACDAD019392CB3008F35FA /* NIKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA9319392CB3008F35FA /* NIKLabel.m */; };
+		0AACDAD119392CB3008F35FA /* NIKNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA9519392CB3008F35FA /* NIKNote.m */; };
+		0AACDAD219392CB3008F35FA /* NIKRelated.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA9719392CB3008F35FA /* NIKRelated.m */; };
+		0AACDAD319392CB3008F35FA /* NIKScoredWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA9919392CB3008F35FA /* NIKScoredWord.m */; };
+		0AACDAD419392CB3008F35FA /* NIKSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA9B19392CB3008F35FA /* NIKSentence.m */; };
+		0AACDAD519392CB3008F35FA /* NIKSimpleDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA9D19392CB3008F35FA /* NIKSimpleDefinition.m */; };
+		0AACDAD619392CB3008F35FA /* NIKSimpleExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDA9F19392CB3008F35FA /* NIKSimpleExample.m */; };
+		0AACDAD719392CB3008F35FA /* NIKStringValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAA119392CB3008F35FA /* NIKStringValue.m */; };
+		0AACDAD819392CB3008F35FA /* NIKSwaggerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAA319392CB3008F35FA /* NIKSwaggerObject.m */; };
+		0AACDAD919392CB3008F35FA /* NIKSyllable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAA519392CB3008F35FA /* NIKSyllable.m */; };
+		0AACDADA19392CB3008F35FA /* NIKTextPron.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAA719392CB3008F35FA /* NIKTextPron.m */; };
+		0AACDADB19392CB3008F35FA /* NIKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAA919392CB3008F35FA /* NIKUser.m */; };
+		0AACDADC19392CB3008F35FA /* NIKWordApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAAB19392CB3008F35FA /* NIKWordApi.m */; };
+		0AACDADD19392CB3008F35FA /* NIKWordList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAAD19392CB3008F35FA /* NIKWordList.m */; };
+		0AACDADE19392CB3008F35FA /* NIKWordListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAAF19392CB3008F35FA /* NIKWordListApi.m */; };
+		0AACDADF19392CB3008F35FA /* NIKWordListsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAB119392CB3008F35FA /* NIKWordListsApi.m */; };
+		0AACDAE019392CB3008F35FA /* NIKWordListWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAB319392CB3008F35FA /* NIKWordListWord.m */; };
+		0AACDAE119392CB3008F35FA /* NIKWordObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAB519392CB3008F35FA /* NIKWordObject.m */; };
+		0AACDAE219392CB3008F35FA /* NIKWordOfTheDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAB719392CB3008F35FA /* NIKWordOfTheDay.m */; };
+		0AACDAE319392CB3008F35FA /* NIKWordsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAB919392CB3008F35FA /* NIKWordsApi.m */; };
+		0AACDAE419392CB3008F35FA /* NIKWordSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDABB19392CB3008F35FA /* NIKWordSearchResult.m */; };
+		0AACDAE519392CB3008F35FA /* NIKWordSearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDABD19392CB3008F35FA /* NIKWordSearchResults.m */; };
 		276D8C6A190460660016E263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D8C69190460660016E263 /* Foundation.framework */; };
 		276D8C6C190460660016E263 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D8C6B190460660016E263 /* CoreGraphics.framework */; };
 		276D8C6E190460660016E263 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D8C6D190460660016E263 /* UIKit.framework */; };
@@ -38,6 +78,86 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AACDA6E19392CB3008F35FA /* NIKAccountApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKAccountApi.h; sourceTree = "<group>"; };
+		0AACDA6F19392CB3008F35FA /* NIKAccountApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKAccountApi.m; sourceTree = "<group>"; };
+		0AACDA7019392CB3008F35FA /* NIKApiInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKApiInvoker.h; sourceTree = "<group>"; };
+		0AACDA7119392CB3008F35FA /* NIKApiInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKApiInvoker.m; sourceTree = "<group>"; };
+		0AACDA7219392CB3008F35FA /* NIKApiTokenStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKApiTokenStatus.h; sourceTree = "<group>"; };
+		0AACDA7319392CB3008F35FA /* NIKApiTokenStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKApiTokenStatus.m; sourceTree = "<group>"; };
+		0AACDA7419392CB3008F35FA /* NIKAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKAudioFile.h; sourceTree = "<group>"; };
+		0AACDA7519392CB3008F35FA /* NIKAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKAudioFile.m; sourceTree = "<group>"; };
+		0AACDA7619392CB3008F35FA /* NIKAuthenticationToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKAuthenticationToken.h; sourceTree = "<group>"; };
+		0AACDA7719392CB3008F35FA /* NIKAuthenticationToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKAuthenticationToken.m; sourceTree = "<group>"; };
+		0AACDA7819392CB3008F35FA /* NIKBigram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKBigram.h; sourceTree = "<group>"; };
+		0AACDA7919392CB3008F35FA /* NIKBigram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKBigram.m; sourceTree = "<group>"; };
+		0AACDA7A19392CB3008F35FA /* NIKCitation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKCitation.h; sourceTree = "<group>"; };
+		0AACDA7B19392CB3008F35FA /* NIKCitation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKCitation.m; sourceTree = "<group>"; };
+		0AACDA7C19392CB3008F35FA /* NIKContentProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKContentProvider.h; sourceTree = "<group>"; };
+		0AACDA7D19392CB3008F35FA /* NIKContentProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKContentProvider.m; sourceTree = "<group>"; };
+		0AACDA7E19392CB3008F35FA /* NIKDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKDate.h; sourceTree = "<group>"; };
+		0AACDA7F19392CB3008F35FA /* NIKDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKDate.m; sourceTree = "<group>"; };
+		0AACDA8019392CB3008F35FA /* NIKDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKDefinition.h; sourceTree = "<group>"; };
+		0AACDA8119392CB3008F35FA /* NIKDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKDefinition.m; sourceTree = "<group>"; };
+		0AACDA8219392CB3008F35FA /* NIKDefinitionSearchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKDefinitionSearchResults.h; sourceTree = "<group>"; };
+		0AACDA8319392CB3008F35FA /* NIKDefinitionSearchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKDefinitionSearchResults.m; sourceTree = "<group>"; };
+		0AACDA8419392CB3008F35FA /* NIKExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKExample.h; sourceTree = "<group>"; };
+		0AACDA8519392CB3008F35FA /* NIKExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKExample.m; sourceTree = "<group>"; };
+		0AACDA8619392CB3008F35FA /* NIKExampleSearchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKExampleSearchResults.h; sourceTree = "<group>"; };
+		0AACDA8719392CB3008F35FA /* NIKExampleSearchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKExampleSearchResults.m; sourceTree = "<group>"; };
+		0AACDA8819392CB3008F35FA /* NIKExampleUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKExampleUsage.h; sourceTree = "<group>"; };
+		0AACDA8919392CB3008F35FA /* NIKExampleUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKExampleUsage.m; sourceTree = "<group>"; };
+		0AACDA8A19392CB3008F35FA /* NIKFacet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKFacet.h; sourceTree = "<group>"; };
+		0AACDA8B19392CB3008F35FA /* NIKFacet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKFacet.m; sourceTree = "<group>"; };
+		0AACDA8C19392CB3008F35FA /* NIKFacetValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKFacetValue.h; sourceTree = "<group>"; };
+		0AACDA8D19392CB3008F35FA /* NIKFacetValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKFacetValue.m; sourceTree = "<group>"; };
+		0AACDA8E19392CB3008F35FA /* NIKFrequency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKFrequency.h; sourceTree = "<group>"; };
+		0AACDA8F19392CB3008F35FA /* NIKFrequency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKFrequency.m; sourceTree = "<group>"; };
+		0AACDA9019392CB3008F35FA /* NIKFrequencySummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKFrequencySummary.h; sourceTree = "<group>"; };
+		0AACDA9119392CB3008F35FA /* NIKFrequencySummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKFrequencySummary.m; sourceTree = "<group>"; };
+		0AACDA9219392CB3008F35FA /* NIKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKLabel.h; sourceTree = "<group>"; };
+		0AACDA9319392CB3008F35FA /* NIKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKLabel.m; sourceTree = "<group>"; };
+		0AACDA9419392CB3008F35FA /* NIKNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKNote.h; sourceTree = "<group>"; };
+		0AACDA9519392CB3008F35FA /* NIKNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKNote.m; sourceTree = "<group>"; };
+		0AACDA9619392CB3008F35FA /* NIKRelated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKRelated.h; sourceTree = "<group>"; };
+		0AACDA9719392CB3008F35FA /* NIKRelated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKRelated.m; sourceTree = "<group>"; };
+		0AACDA9819392CB3008F35FA /* NIKScoredWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKScoredWord.h; sourceTree = "<group>"; };
+		0AACDA9919392CB3008F35FA /* NIKScoredWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKScoredWord.m; sourceTree = "<group>"; };
+		0AACDA9A19392CB3008F35FA /* NIKSentence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKSentence.h; sourceTree = "<group>"; };
+		0AACDA9B19392CB3008F35FA /* NIKSentence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKSentence.m; sourceTree = "<group>"; };
+		0AACDA9C19392CB3008F35FA /* NIKSimpleDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKSimpleDefinition.h; sourceTree = "<group>"; };
+		0AACDA9D19392CB3008F35FA /* NIKSimpleDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKSimpleDefinition.m; sourceTree = "<group>"; };
+		0AACDA9E19392CB3008F35FA /* NIKSimpleExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKSimpleExample.h; sourceTree = "<group>"; };
+		0AACDA9F19392CB3008F35FA /* NIKSimpleExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKSimpleExample.m; sourceTree = "<group>"; };
+		0AACDAA019392CB3008F35FA /* NIKStringValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKStringValue.h; sourceTree = "<group>"; };
+		0AACDAA119392CB3008F35FA /* NIKStringValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKStringValue.m; sourceTree = "<group>"; };
+		0AACDAA219392CB3008F35FA /* NIKSwaggerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKSwaggerObject.h; sourceTree = "<group>"; };
+		0AACDAA319392CB3008F35FA /* NIKSwaggerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKSwaggerObject.m; sourceTree = "<group>"; };
+		0AACDAA419392CB3008F35FA /* NIKSyllable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKSyllable.h; sourceTree = "<group>"; };
+		0AACDAA519392CB3008F35FA /* NIKSyllable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKSyllable.m; sourceTree = "<group>"; };
+		0AACDAA619392CB3008F35FA /* NIKTextPron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKTextPron.h; sourceTree = "<group>"; };
+		0AACDAA719392CB3008F35FA /* NIKTextPron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKTextPron.m; sourceTree = "<group>"; };
+		0AACDAA819392CB3008F35FA /* NIKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKUser.h; sourceTree = "<group>"; };
+		0AACDAA919392CB3008F35FA /* NIKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKUser.m; sourceTree = "<group>"; };
+		0AACDAAA19392CB3008F35FA /* NIKWordApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordApi.h; sourceTree = "<group>"; };
+		0AACDAAB19392CB3008F35FA /* NIKWordApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordApi.m; sourceTree = "<group>"; };
+		0AACDAAC19392CB3008F35FA /* NIKWordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordList.h; sourceTree = "<group>"; };
+		0AACDAAD19392CB3008F35FA /* NIKWordList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordList.m; sourceTree = "<group>"; };
+		0AACDAAE19392CB3008F35FA /* NIKWordListApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordListApi.h; sourceTree = "<group>"; };
+		0AACDAAF19392CB3008F35FA /* NIKWordListApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordListApi.m; sourceTree = "<group>"; };
+		0AACDAB019392CB3008F35FA /* NIKWordListsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordListsApi.h; sourceTree = "<group>"; };
+		0AACDAB119392CB3008F35FA /* NIKWordListsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordListsApi.m; sourceTree = "<group>"; };
+		0AACDAB219392CB3008F35FA /* NIKWordListWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordListWord.h; sourceTree = "<group>"; };
+		0AACDAB319392CB3008F35FA /* NIKWordListWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordListWord.m; sourceTree = "<group>"; };
+		0AACDAB419392CB3008F35FA /* NIKWordObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordObject.h; sourceTree = "<group>"; };
+		0AACDAB519392CB3008F35FA /* NIKWordObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordObject.m; sourceTree = "<group>"; };
+		0AACDAB619392CB3008F35FA /* NIKWordOfTheDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordOfTheDay.h; sourceTree = "<group>"; };
+		0AACDAB719392CB3008F35FA /* NIKWordOfTheDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordOfTheDay.m; sourceTree = "<group>"; };
+		0AACDAB819392CB3008F35FA /* NIKWordsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordsApi.h; sourceTree = "<group>"; };
+		0AACDAB919392CB3008F35FA /* NIKWordsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordsApi.m; sourceTree = "<group>"; };
+		0AACDABA19392CB3008F35FA /* NIKWordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordSearchResult.h; sourceTree = "<group>"; };
+		0AACDABB19392CB3008F35FA /* NIKWordSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordSearchResult.m; sourceTree = "<group>"; };
+		0AACDABC19392CB3008F35FA /* NIKWordSearchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordSearchResults.h; sourceTree = "<group>"; };
+		0AACDABD19392CB3008F35FA /* NIKWordSearchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordSearchResults.m; sourceTree = "<group>"; };
 		276D8C66190460660016E263 /* Speech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276D8C69190460660016E263 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		276D8C6B190460660016E263 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,6 +210,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AACDA6D19392CB3008F35FA /* client */ = {
+			isa = PBXGroup;
+			children = (
+				0AACDA6E19392CB3008F35FA /* NIKAccountApi.h */,
+				0AACDA6F19392CB3008F35FA /* NIKAccountApi.m */,
+				0AACDA7019392CB3008F35FA /* NIKApiInvoker.h */,
+				0AACDA7119392CB3008F35FA /* NIKApiInvoker.m */,
+				0AACDA7219392CB3008F35FA /* NIKApiTokenStatus.h */,
+				0AACDA7319392CB3008F35FA /* NIKApiTokenStatus.m */,
+				0AACDA7419392CB3008F35FA /* NIKAudioFile.h */,
+				0AACDA7519392CB3008F35FA /* NIKAudioFile.m */,
+				0AACDA7619392CB3008F35FA /* NIKAuthenticationToken.h */,
+				0AACDA7719392CB3008F35FA /* NIKAuthenticationToken.m */,
+				0AACDA7819392CB3008F35FA /* NIKBigram.h */,
+				0AACDA7919392CB3008F35FA /* NIKBigram.m */,
+				0AACDA7A19392CB3008F35FA /* NIKCitation.h */,
+				0AACDA7B19392CB3008F35FA /* NIKCitation.m */,
+				0AACDA7C19392CB3008F35FA /* NIKContentProvider.h */,
+				0AACDA7D19392CB3008F35FA /* NIKContentProvider.m */,
+				0AACDA7E19392CB3008F35FA /* NIKDate.h */,
+				0AACDA7F19392CB3008F35FA /* NIKDate.m */,
+				0AACDA8019392CB3008F35FA /* NIKDefinition.h */,
+				0AACDA8119392CB3008F35FA /* NIKDefinition.m */,
+				0AACDA8219392CB3008F35FA /* NIKDefinitionSearchResults.h */,
+				0AACDA8319392CB3008F35FA /* NIKDefinitionSearchResults.m */,
+				0AACDA8419392CB3008F35FA /* NIKExample.h */,
+				0AACDA8519392CB3008F35FA /* NIKExample.m */,
+				0AACDA8619392CB3008F35FA /* NIKExampleSearchResults.h */,
+				0AACDA8719392CB3008F35FA /* NIKExampleSearchResults.m */,
+				0AACDA8819392CB3008F35FA /* NIKExampleUsage.h */,
+				0AACDA8919392CB3008F35FA /* NIKExampleUsage.m */,
+				0AACDA8A19392CB3008F35FA /* NIKFacet.h */,
+				0AACDA8B19392CB3008F35FA /* NIKFacet.m */,
+				0AACDA8C19392CB3008F35FA /* NIKFacetValue.h */,
+				0AACDA8D19392CB3008F35FA /* NIKFacetValue.m */,
+				0AACDA8E19392CB3008F35FA /* NIKFrequency.h */,
+				0AACDA8F19392CB3008F35FA /* NIKFrequency.m */,
+				0AACDA9019392CB3008F35FA /* NIKFrequencySummary.h */,
+				0AACDA9119392CB3008F35FA /* NIKFrequencySummary.m */,
+				0AACDA9219392CB3008F35FA /* NIKLabel.h */,
+				0AACDA9319392CB3008F35FA /* NIKLabel.m */,
+				0AACDA9419392CB3008F35FA /* NIKNote.h */,
+				0AACDA9519392CB3008F35FA /* NIKNote.m */,
+				0AACDA9619392CB3008F35FA /* NIKRelated.h */,
+				0AACDA9719392CB3008F35FA /* NIKRelated.m */,
+				0AACDA9819392CB3008F35FA /* NIKScoredWord.h */,
+				0AACDA9919392CB3008F35FA /* NIKScoredWord.m */,
+				0AACDA9A19392CB3008F35FA /* NIKSentence.h */,
+				0AACDA9B19392CB3008F35FA /* NIKSentence.m */,
+				0AACDA9C19392CB3008F35FA /* NIKSimpleDefinition.h */,
+				0AACDA9D19392CB3008F35FA /* NIKSimpleDefinition.m */,
+				0AACDA9E19392CB3008F35FA /* NIKSimpleExample.h */,
+				0AACDA9F19392CB3008F35FA /* NIKSimpleExample.m */,
+				0AACDAA019392CB3008F35FA /* NIKStringValue.h */,
+				0AACDAA119392CB3008F35FA /* NIKStringValue.m */,
+				0AACDAA219392CB3008F35FA /* NIKSwaggerObject.h */,
+				0AACDAA319392CB3008F35FA /* NIKSwaggerObject.m */,
+				0AACDAA419392CB3008F35FA /* NIKSyllable.h */,
+				0AACDAA519392CB3008F35FA /* NIKSyllable.m */,
+				0AACDAA619392CB3008F35FA /* NIKTextPron.h */,
+				0AACDAA719392CB3008F35FA /* NIKTextPron.m */,
+				0AACDAA819392CB3008F35FA /* NIKUser.h */,
+				0AACDAA919392CB3008F35FA /* NIKUser.m */,
+				0AACDAAA19392CB3008F35FA /* NIKWordApi.h */,
+				0AACDAAB19392CB3008F35FA /* NIKWordApi.m */,
+				0AACDAAC19392CB3008F35FA /* NIKWordList.h */,
+				0AACDAAD19392CB3008F35FA /* NIKWordList.m */,
+				0AACDAAE19392CB3008F35FA /* NIKWordListApi.h */,
+				0AACDAAF19392CB3008F35FA /* NIKWordListApi.m */,
+				0AACDAB019392CB3008F35FA /* NIKWordListsApi.h */,
+				0AACDAB119392CB3008F35FA /* NIKWordListsApi.m */,
+				0AACDAB219392CB3008F35FA /* NIKWordListWord.h */,
+				0AACDAB319392CB3008F35FA /* NIKWordListWord.m */,
+				0AACDAB419392CB3008F35FA /* NIKWordObject.h */,
+				0AACDAB519392CB3008F35FA /* NIKWordObject.m */,
+				0AACDAB619392CB3008F35FA /* NIKWordOfTheDay.h */,
+				0AACDAB719392CB3008F35FA /* NIKWordOfTheDay.m */,
+				0AACDAB819392CB3008F35FA /* NIKWordsApi.h */,
+				0AACDAB919392CB3008F35FA /* NIKWordsApi.m */,
+				0AACDABA19392CB3008F35FA /* NIKWordSearchResult.h */,
+				0AACDABB19392CB3008F35FA /* NIKWordSearchResult.m */,
+				0AACDABC19392CB3008F35FA /* NIKWordSearchResults.h */,
+				0AACDABD19392CB3008F35FA /* NIKWordSearchResults.m */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
 		276D8C5D190460660016E263 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +331,7 @@
 		276D8C6F190460660016E263 /* Speech */ = {
 			isa = PBXGroup;
 			children = (
+				0AACDA6D19392CB3008F35FA /* client */,
 				276D8C78190460660016E263 /* AppDelegate.h */,
 				276D8C79190460660016E263 /* AppDelegate.m */,
 				276D8C7B190460660016E263 /* Main.storyboard */,
@@ -267,11 +475,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AACDADA19392CB3008F35FA /* NIKTextPron.m in Sources */,
+				0AACDADD19392CB3008F35FA /* NIKWordList.m in Sources */,
+				0AACDAC619392CB3008F35FA /* NIKDate.m in Sources */,
+				0AACDADF19392CB3008F35FA /* NIKWordListsApi.m in Sources */,
+				0AACDACD19392CB3008F35FA /* NIKFacetValue.m in Sources */,
 				276D8C80190460660016E263 /* ViewController.m in Sources */,
+				0AACDAD119392CB3008F35FA /* NIKNote.m in Sources */,
+				0AACDAE419392CB3008F35FA /* NIKWordSearchResult.m in Sources */,
+				0AACDAC919392CB3008F35FA /* NIKExample.m in Sources */,
+				0AACDADB19392CB3008F35FA /* NIKUser.m in Sources */,
+				0AACDAC419392CB3008F35FA /* NIKCitation.m in Sources */,
+				0AACDACA19392CB3008F35FA /* NIKExampleSearchResults.m in Sources */,
 				276D8C7A190460660016E263 /* AppDelegate.m in Sources */,
+				0AACDAE119392CB3008F35FA /* NIKWordObject.m in Sources */,
+				0AACDAC519392CB3008F35FA /* NIKContentProvider.m in Sources */,
 				276D8C76190460660016E263 /* main.m in Sources */,
+				0AACDAC119392CB3008F35FA /* NIKAudioFile.m in Sources */,
+				0AACDAD619392CB3008F35FA /* NIKSimpleExample.m in Sources */,
+				0AACDADE19392CB3008F35FA /* NIKWordListApi.m in Sources */,
+				0AACDAC719392CB3008F35FA /* NIKDefinition.m in Sources */,
+				0AACDACF19392CB3008F35FA /* NIKFrequencySummary.m in Sources */,
+				0AACDAE219392CB3008F35FA /* NIKWordOfTheDay.m in Sources */,
+				0AACDAE319392CB3008F35FA /* NIKWordsApi.m in Sources */,
+				0AACDACE19392CB3008F35FA /* NIKFrequency.m in Sources */,
 				276D8CA2190469F00016E263 /* WordsTableViewController.m in Sources */,
 				276D8CA819046F9E0016E263 /* SpellingViewController.m in Sources */,
+				0AACDAD319392CB3008F35FA /* NIKScoredWord.m in Sources */,
+				0AACDAD019392CB3008F35FA /* NIKLabel.m in Sources */,
+				0AACDAC819392CB3008F35FA /* NIKDefinitionSearchResults.m in Sources */,
+				0AACDAC319392CB3008F35FA /* NIKBigram.m in Sources */,
+				0AACDACC19392CB3008F35FA /* NIKFacet.m in Sources */,
+				0AACDAD919392CB3008F35FA /* NIKSyllable.m in Sources */,
+				0AACDAD819392CB3008F35FA /* NIKSwaggerObject.m in Sources */,
+				0AACDABE19392CB3008F35FA /* NIKAccountApi.m in Sources */,
+				0AACDABF19392CB3008F35FA /* NIKApiInvoker.m in Sources */,
+				0AACDAD519392CB3008F35FA /* NIKSimpleDefinition.m in Sources */,
+				0AACDAD419392CB3008F35FA /* NIKSentence.m in Sources */,
+				0AACDAE519392CB3008F35FA /* NIKWordSearchResults.m in Sources */,
+				0AACDAD219392CB3008F35FA /* NIKRelated.m in Sources */,
+				0AACDAE019392CB3008F35FA /* NIKWordListWord.m in Sources */,
+				0AACDAC219392CB3008F35FA /* NIKAuthenticationToken.m in Sources */,
+				0AACDAC019392CB3008F35FA /* NIKApiTokenStatus.m in Sources */,
+				0AACDACB19392CB3008F35FA /* NIKExampleUsage.m in Sources */,
+				0AACDAD719392CB3008F35FA /* NIKStringValue.m in Sources */,
+				0AACDADC19392CB3008F35FA /* NIKWordApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +724,7 @@
 				276D8C9A190460660016E263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		276D8C9B190460660016E263 /* Build configuration list for PBXNativeTarget "SpeechTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +733,7 @@
 				276D8C9D190460660016E263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
