@@ -47,6 +47,8 @@
 		0AACDAE319392CB3008F35FA /* NIKWordsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDAB919392CB3008F35FA /* NIKWordsApi.m */; };
 		0AACDAE419392CB3008F35FA /* NIKWordSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDABB19392CB3008F35FA /* NIKWordSearchResult.m */; };
 		0AACDAE519392CB3008F35FA /* NIKWordSearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACDABD19392CB3008F35FA /* NIKWordSearchResults.m */; };
+		0AACDAE719394406008F35FA /* error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0AACDAE619394406008F35FA /* error.wav */; };
+		0AACDAE919394602008F35FA /* correct.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0AACDAE819394602008F35FA /* correct.m4a */; };
 		276D8C6A190460660016E263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D8C69190460660016E263 /* Foundation.framework */; };
 		276D8C6C190460660016E263 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D8C6B190460660016E263 /* CoreGraphics.framework */; };
 		276D8C6E190460660016E263 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276D8C6D190460660016E263 /* UIKit.framework */; };
@@ -158,6 +160,8 @@
 		0AACDABB19392CB3008F35FA /* NIKWordSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordSearchResult.m; sourceTree = "<group>"; };
 		0AACDABC19392CB3008F35FA /* NIKWordSearchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKWordSearchResults.h; sourceTree = "<group>"; };
 		0AACDABD19392CB3008F35FA /* NIKWordSearchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKWordSearchResults.m; sourceTree = "<group>"; };
+		0AACDAE619394406008F35FA /* error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = error.wav; sourceTree = "<group>"; };
+		0AACDAE819394602008F35FA /* correct.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = correct.m4a; sourceTree = "<group>"; };
 		276D8C66190460660016E263 /* Speech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276D8C69190460660016E263 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		276D8C6B190460660016E263 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -350,6 +354,8 @@
 		276D8C70190460660016E263 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0AACDAE619394406008F35FA /* error.wav */,
+				0AACDAE819394602008F35FA /* correct.m4a */,
 				276D8CA319046AE10016E263 /* latin.txt */,
 				276D8C71190460660016E263 /* Speech-Info.plist */,
 				276D8C72190460660016E263 /* InfoPlist.strings */,
@@ -455,7 +461,9 @@
 			files = (
 				276D8C82190460660016E263 /* Images.xcassets in Resources */,
 				276D8C74190460660016E263 /* InfoPlist.strings in Resources */,
+				0AACDAE719394406008F35FA /* error.wav in Resources */,
 				276D8C7D190460660016E263 /* Main.storyboard in Resources */,
+				0AACDAE919394602008F35FA /* correct.m4a in Resources */,
 				276D8CA419046AE10016E263 /* latin.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
